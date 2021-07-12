@@ -18,7 +18,6 @@ categoriesRoutes.post("/", (request, response) => {
   categories.push(category);
 
   return response.status(201).json(categories);
-  // a
 });
 
 export { categoriesRoutes };
